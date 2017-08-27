@@ -1,0 +1,10 @@
+{
+  "proxies": {
+    "/group/": {
+      "origin": "https://www.facebook.com/groups/113880479320631"
+    }
+  },
+  "/group/**": {
+    "Cache-Control": "public, max-age=512000"
+  }
+}
