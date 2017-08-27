@@ -5,6 +5,7 @@
     }
   },
   "/group/**": {
+    "X-Frame-Options":"",
     "Cache-Control": "public, max-age=512000"
   }
 }
